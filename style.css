@@ -1,0 +1,188 @@
+body { background-color: #8b0000;
+}
+
+.header { background-color: black;
+position: relative;
+display: flex; 
+align-items: center;
+
+
+ }
+
+.header img{
+
+	width: 200px;
+	height: 70px;
+}
+
+
+
+.navh{
+	position: absolute;
+	right: 10px;
+	
+	
+}
+
+
+.navh a{
+	margin:40px;
+	float: left;
+	color: grey;
+    margin-right: 30px;
+margin-left: 20px;		
+
+}
+
+.banner {
+	position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 180px ;
+  margin: 0px 0px 30px ;
+  box-shadow: 4px 4px 15px black;
+}
+
+.banner h1 {
+  text-align: center;
+   font-family: serif;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.banner p {
+	text-align: center;
+	padding: 60px;
+	 
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+
+.btn-ghost { 
+font-family: fantasy;
+font-size: 20px;  
+  width: 440px; 
+  color: white;
+  border: 1px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.btn-ghost:hover {
+	color:#4A4A4A ;
+  opacity: 1;
+}
+
+#scroll{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+height: 180px;
+width: 150px;
+border-image: : #ccc;
+margin-bottom: 2px;
+
+}
+
+
+
+	
+	 
+.tarjetas { background-color: black;
+	display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.card {
+    position: relative;	
+	background-size: cover;	
+	background-position: center;
+	width: 300px;
+	height: 150px;
+	border:none;	
+	margin:10px;
+	border-radius: 10px;
+   
+}
+
+
+
+.font {color: green;
+   text-decoration: none;
+    font-size: 60%;
+    position: absolute;
+     left: 50%;	
+ top: 90%;	
+ transform: translate(-50%,-50%);
+    
+
+
+
+}
+
+.notice img{
+      height: 50px;
+      width:300px; 
+      margin: 10px;
+      
+}
+
+
+.not{
+	background-color: black;
+  
+
+}
+
+
+.foto{
+   float: left;
+	height: 75px;
+	width: 150px;
+	border-radius: 50px;
+	margin-left: 5px;
+	margin-top: 7px;
+
+
+}
+
+
+.fuente a{
+	color:white;
+}
+.fuente h1{
+	color: white;	
+    margin-left:150px;
+    margin-bottom: 0px;
+
+
+}
+
+
+
+.fuente p{
+	font-size: 22px;
+	color: white;
+	margin-left: 150px;
+
+
+	}
+
+.ultima{
+	padding-bottom: 50px
+}
+
+.oro{
+	padding-bottom: 10px;
+}
